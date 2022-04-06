@@ -1,0 +1,17 @@
+Steps to follow:
+
+1. Install Cuda Toolkit
+2. Install CudNN
+3. Libraries to be installed
+	cmake
+	dlib with cuda support
+	face_recognition
+	pytorchyolo with cuda support
+	opencv
+	imutils
+	PIL
+	pickle
+	
+4. Copy the source code to your project folder
+5. Add candidate data to the data directory (if any, optional)
+6. Run main.py as "python main.py -d data"
