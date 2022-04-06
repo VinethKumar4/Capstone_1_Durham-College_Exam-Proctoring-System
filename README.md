@@ -28,16 +28,25 @@ video of them while they attempt the test.
 Scope Of Work
 Develop and implement the algorithm to detect if a candidate is using unfair means during
 virtual examination.
+
 • Assumptions:
+
 ➢ The images on which the model will learn will be taken at the beginning of the
 test.
+
 ➢ The main test video on which the algo will run will be done later and not at
 runtime.
+
 • Limitations:
+
 ➢ The algo will flag moments in the test video which seem unfair instead of a fix
 judgement. This in turn will make the invigilator look at the flagged moments.
+
 ➢ Heavy compute power required.
+
 • Constraints:
+
 ➢ The learning images should not have any other face in the background except for
 the candidate.
+
 ➢ The test should be taken in a well-lit room.
